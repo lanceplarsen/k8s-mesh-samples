@@ -23,7 +23,7 @@ kubectl apply -f virtual-service-all.yaml
 
 The application is now using the v2 ratings version app.
 
-# Service auth example
+## Service auth example
 You can specify authentication requirements for services receiving requests in an Istio mesh using authentication policies. We can demonstrate this with BookInfo sample app.
 
 1. We will create our service accounts for the microservices.
