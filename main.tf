@@ -14,7 +14,7 @@ resource "google_container_cluster" "k8s" {
   name               = "${element(var.animals, count.index)}-cluster"
   description        = "k8s cluster"
   zone               = "${var.gcp_zone}"
-  initial_node_count = "3"
+  initial_node_count = "4"
   enable_kubernetes_alpha = "true"
   enable_legacy_abac = "true"
 
