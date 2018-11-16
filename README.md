@@ -17,6 +17,8 @@ These samples can run with any K8s distro but were designed around GKE. A GKE K8
 gcloud components install kubectl
 ```
 
+3. Install [Helm](https://docs.helm.sh/using_helm).
+
 2.  Authenticate to the GCP training project
 
 ```
