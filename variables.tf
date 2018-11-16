@@ -1,3 +1,5 @@
+variable "gcp_project_id" {}
+
 variable "clusters" {
   default = "1"
 }

@@ -1,4 +1,6 @@
-provider "google" {}
+provider "google" {
+  project = "${var.gcp_project_id}"
+}
 
 resource "random_string" "password" {
   length = 16
