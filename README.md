@@ -11,6 +11,12 @@ These samples can run with any K8s distro but were designed around GKE. A GKE K8
 
 1.  Install the [gcloud sdk](https://cloud.google.com/sdk/install) on your machine.
 
+2.  Install kubectl with gcloud.
+
+```
+gcloud components install kubectl
+```
+
 2.  Authenticate to the GCP training project
 
 ```
