@@ -7,14 +7,21 @@ This lab is based on the [Connect K8s sidecar](https://www.consul.io/docs/platfo
 1. Run the [lab script](lab.sh) against your cluster.
 
 #Mutual auth example
-1. Test our service
+1. Deploy our application
+
+```
+kubectl create -f server.yml
+kubectl create -f client.yml
+```
+
+2. Test our service
 
 ```
 kubectl exec static-client -c static-client -- curl -s http://127.0.0.1:1234/
 "hello world"
 ```
 
-2. Add a Consul intention to deny the service. You can do this easily through the cli. To get the
+3. Add a Consul intention to deny the service. You can do this easily through the cli. To get the
 
 ```
 kubectl get service # Look for the `consul-ui` external IP.
@@ -22,7 +29,7 @@ export CONSUL_HTTP_ADDR=<http://<external_ip>:80
 consul intention create -deny static-client static-server
 ```
 
-3. Test our service again
+4. Test our service again
 
 ```
 kubectl exec static-client -- curl -s http://127.0.0.1:1234/
