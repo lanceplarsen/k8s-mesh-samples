@@ -19,13 +19,13 @@ gcloud components install kubectl
 
 3. Install [Helm](https://docs.helm.sh/using_helm).
 
-2.  Authenticate to the GCP training project
+4.  Authenticate to the GCP training project
 
 ```
 gcloud auth activate-service-account <training_account> --key-file=<training_key_file>
 ```
 
-3.  Connect to your K8s cluster
+5.  Connect to your K8s cluster
 
 ```
 gcloud container clusters get-credentials <cluster_name> --zone <training_zone> --project <training_project>
