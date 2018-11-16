@@ -1,7 +1,7 @@
 # k8s-mesh-samples
 
 Service mesh labs for K8s, Istio, and Consul training.
-- [envoy](enovy)
+- [envoy](envoy)
 - [istio](istio)
 - [consul](consul)
 ----
