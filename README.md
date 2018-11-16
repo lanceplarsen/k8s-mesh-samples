@@ -9,7 +9,7 @@ Service mesh labs for K8s, Istio, and Consul training.
 ## Prerequisites
 These samples can run with any K8s distro but were designed around GKE. A GKE K8s cluster and service account will be provided for you in this session. The inputs will be provided to you by the trainer for below commands.
 
-1.  Install the [gcloud sdk](https://cloud.google.com/sdk/install) on your machine.
+1.  Install the [gcloud sdk](https://cloud.google.com/sdk/docs/quickstarts) on your machine.
 
 2.  Install kubectl with gcloud.
 
