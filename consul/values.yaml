@@ -30,7 +30,7 @@ global:
   datacenter: dc1
 
 server:
-  enabled: "-"
+  enabled: true
   image: null
   replicas: 3
   bootstrapExpect: 3 # Should <= replicas count
