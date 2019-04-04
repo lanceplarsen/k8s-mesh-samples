@@ -1,1 +1,2 @@
-clusters=2
+gcp_project_id="ll-vault-training"
+clusters=5

@@ -1,7 +1,7 @@
 variable "gcp_project_id" {}
 
 variable "clusters" {
-  default = "1"
+  default = "45"
 }
 
 variable "node_machine_type" {
